@@ -13,8 +13,7 @@ from plot_lda_qda import *
 from sklearn.cross_validation import train_test_split
 from sklearn.metrics import confusion_matrix
 
-cwd = 'C:\\Users\\asr13006\\Google Drive\\UConn MS\\Fall 2014\\ECE 6141 Neural\
- Network\\Homework_Shared\\Dataset 1\\dataset1 newfiles'
+cwd = 'folder_to_data'
 os.chdir(cwd)
 ###############################################################################
 #    Initial processing
