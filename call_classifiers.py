@@ -25,7 +25,7 @@ def classify_it(df, classifier_name, filename, test_size=0.5, n_neighbors=1):
     print output
     sys.stdout.close()
 
-cwd = r'C:\Users\asr13006\Desktop\ECE 6141 Neural Network\Homework_Shared\Dataset 1\dataset1 newfiles'.replace("\\", '/')
+cwd = r'path_to_data_file'.replace("\\", '/')
 os.chdir(cwd)
 data = read_hdf('DO_NOT_CHANGE_minmax_scaled.h5', 'data')
 
