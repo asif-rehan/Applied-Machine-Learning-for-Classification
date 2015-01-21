@@ -15,8 +15,7 @@ import os
 import classification
 import itertools
 
-src = r'C:\Users\asr13006\Desktop\ECE 6141 Neural Network\Homework_Shared\UCI \
-dataset'.replace('\\', '/')
+src = r'path'.replace('\\', '/')
 os.chdir(src)
 
 haberman = open('Haberman.csv', 'rb')
