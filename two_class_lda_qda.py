@@ -19,9 +19,9 @@ os.chdir(cwd)
 #    Initial processing
 ###############################################################################
     
-mat3 = scipy.io.loadmat('dataset3_costDist_v3.mat')
-mat2 = scipy.io.loadmat('anonDataset2.mat')
-mat1 = scipy.io.loadmat('anonDataset1.mat')
+mat3 = scipy.io.loadmat('dataset3.mat')
+mat2 = scipy.io.loadmat('Dataset2.mat')
+mat1 = scipy.io.loadmat('Dataset1.mat')
             
 f1 = np.hstack((np.hstack((mat3['f1'][0], mat2['f1'][0])), mat1['f1'][0]))
 plt.hist(f1, 10, hold=True)
