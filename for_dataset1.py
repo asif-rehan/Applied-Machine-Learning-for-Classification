@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 
 def for_dataset1():
-    cwd = r'C:\Users\asr13006\Desktop\ECE 6141 Neural Network\Homework_Shared\Dataset 1\dataset1 newfiles'.replace("\\", '/')
+    cwd = r'path_to_datafile'.replace("\\", '/')
     os.chdir(cwd)
     
     mat3 = scipy.io.loadmat('dataset3_costDist_v3.mat')
@@ -43,7 +43,7 @@ def for_dataset1():
     
 def for_Haberman(classifier, n_neighbor=1, 
                  test_size = 0.5, pnn_sigma=1):
-    cwd = r'C:\Users\asr13006\Desktop\ECE 6141 Neural Network\Homework_Shared\UCI dataset'.replace("\\", '/')
+    cwd = r'path_to_datafile'.replace("\\", '/')
     os.chdir(cwd)
     Haberman = pd.read_csv('Haberman.csv')
     cls_col = 'y'
@@ -58,7 +58,7 @@ def for_Haberman(classifier, n_neighbor=1,
 
 def for_iris(classifier, n_neighbor=1, 
                  test_size = 0.5, pnn_sigma=1):
-    cwd = r'C:\Users\asr13006\Desktop\ECE 6141 Neural Network\Homework_Shared\UCI dataset\Iris'.replace("\\", '/')
+    cwd = r'path_to_datafile'.replace("\\", '/')
     os.chdir(cwd)
     iris = pd.read_csv('Iris.data', names=('Sl', 'sw', 'pl', 'pw', 'class'))
     iris = iris.dropna()
