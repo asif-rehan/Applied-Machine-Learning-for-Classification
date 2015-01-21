@@ -111,9 +111,9 @@ def combo_scatterplot(classwise_sampled, columns, plot_name):
     
     
 if __name__ == '__main__':
-    cwd = r'C:\Users\asr13006\Desktop\ECE 6141 Neural Network\Homework_Shared\Dataset 1\dataset1 newfiles'.replace("\\", '/')
+    cwd = r'path_to_datafile'.replace("\\", '/')
     os.chdir(cwd)
-    save_path = r"C:\Users\asr13006\Google Drive\UConn MS\Fall 2014\ECE 6141 Neural Network\Homework_Shared\Dataset1 analysis outputs\combo_scatter\combo_scatter2".replace('\\', '/')
+    save_path = r"path_to_datafile".replace('\\', '/')
     
     df = read_hdf('DO_NOT_CHANGE_eq_prior_final.h5', 'data')
     columns = df.keys()
