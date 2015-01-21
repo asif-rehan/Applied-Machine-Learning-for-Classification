@@ -17,7 +17,7 @@ from sklearn.decomposition.pca import PCA
 from numpy import argmin
 from pandas.io.pytables import HDFStore
 
-cwd = r'C:\Users\asr13006\Desktop\ECE 6141 Neural Network\Homework_Shared\Dataset 1\dataset1 newfiles'.replace("\\", '/')
+cwd = r'path_to_datafile'.replace("\\", '/')
 os.chdir(cwd)
 
 
