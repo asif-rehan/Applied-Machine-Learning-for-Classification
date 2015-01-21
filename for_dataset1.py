@@ -18,9 +18,9 @@ def for_dataset1():
     cwd = r'path_to_datafile'.replace("\\", '/')
     os.chdir(cwd)
     
-    mat3 = scipy.io.loadmat('dataset3_costDist_v3.mat')
-    mat2 = scipy.io.loadmat('dataset2_costDist_v3.mat')
-    mat1 = scipy.io.loadmat('dataset1_costDist_v3.mat')
+    mat3 = scipy.io.loadmat('dataset3.mat')
+    mat2 = scipy.io.loadmat('dataset2.mat')
+    mat1 = scipy.io.loadmat('dataset1.mat')
     
     columns = ['f1', 'f2', 'f3', 'f4', 'f5', 'y2']
     cls_col = 'y2'
