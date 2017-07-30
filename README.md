@@ -1,2 +1,3 @@
 # machine_learning_raw
-Codes and scripts written for machine learning and Neural Networks
+Applied a range of machine learning and Artificial Neural Networks classification algorithms in Python using, Scikit Learn, NumPy, PANDAS and Matplotlib. 
+
